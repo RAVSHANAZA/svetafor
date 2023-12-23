@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(20, 227, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+.container {
+  background-color: #030303;
+  height: 400px;
+  width: 120px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  flex-direction: column;
+}
+.for {
+  background-color: rgba(105, 105, 105, 0.3);
+  width: 90px;
+  height: 90px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.for.red {
+  background-color: red;
+  box-shadow: 0 0 25px red;
+}
+.for.yellow {
+  background-color: yellow;
+  box-shadow: 0 0 25px yellow;
+}
+.for.green {
+  background-color: green;
+  box-shadow: 0 0 25px green;
+}
+/* box-shadow: 0 0 25px red; */
+/* .yellow {
+  border-radius: 600px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+}
+.green {
+  border-radius: 600px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+} */
